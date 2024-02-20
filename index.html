@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="container-nav">
+            <div class="left-cont">
+                <img src="logo.png" alt="logo">
+                <ul class="menu">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Tv shows</li>
+                    <li class="nav-item">Movies</li>
+                    <li class="nav-item">News&popular</li>
+                    <li class="nav-item">My List</li>
+                    <li class="nav-item">Browse by Languages</li>
+                </ul>
+            </div>
+            <div class="right-cont">
+                <i class="fa-solid nav-item fa-magnifying-glass"></i>
+                <i class="fa-solid nav-item fa-bell"></i>
+                <img  class="nav-item" src="./user-animated.png" alt="animantion">
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- banner section -->
+
+    <div class="banner-section">
+        <div class="banner-content" style="background: url('logo.png')">
+            <h2 class="">Delhi Crime</h2>
+            <p>#4 in TV Shows Today</p>
+            <p></p>
+            <div class="action-buttons.container">
+                <button class="action-button">Play</button>
+                <button class="action-button">More Info</button>
+            </div>
+        </div>
+    </div>
+    <!-- movies sections -->
+    <div class="movies-cont container" id="movies-cont">
+        <!-- <div class="movies-section">
+            <h2 class="movies-section-heading">Trending Now <span class="explore">Explore All</span></h2>
+            <div class="movies-row">
+                <img class="movie-item" src="https://image.tmdb.org/t/p/original/uUiIGztTrfDhPdAFJpr6m4UBMAd.jpg" alt="">
+                
+            </div>
+        </div> -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js" integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
